@@ -1,0 +1,87 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+    
+    #contact {
+        
+        color: #333;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+       
+        }
+
+        #portfolio {
+           
+            color: #333;
+            padding: 20px 34px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 4px 2px;
+            cursor: pointer;
+            
+            }
+        
+            #about {
+                color:#333;
+                padding: 20px 34px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 20px;
+                margin: 4px 2px;
+                cursor: pointer;
+                }
+                
+                /* Container holding the image and the text */
+    .container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px }
+
+    #name {
+        width: 38%;
+        float; left;
+        background: #4aaaa5;
+        color: white;
+        display: inline-block;
+    }
+
+nav {display:
+    inline-block;
+    float: right;
+   
+}
+
+header {
+    width; 100%;
+}
+
+.container {
+    background: white;
+}
+
+body { 
+background:brown;
+}
+
+.navitem {
+
+}
+
