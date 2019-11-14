@@ -13,29 +13,48 @@
 
 <body>
     <header>
-        <div id="name">
-            <h1>Ryan Thomas</h1>
+        <div class="container">
+            <h1 class="headfont" id="name">Ryan Thomas</h1>
+            <nav class="otherfont">
+                <a href="index.html" id="about">About</a>
+                <a href="portfolio.html" id="portfolio">Portfolio</a>
+                <a href="contact.html" id="contact">Contact</a>
 
-            <a href="contact.html" class="contact">Contact</a>
-            <a href="portfolio.html" class="portfolio">Portfolio</a>
-            <a href="index.html" class="about">About</a>
+
+            </nav>
         </div>
 
 
 
     </header>
-    <h2>Contact</h2>
-    <section>
-        <form>
-            <label for="fname">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith">
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="example@gmail.com">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder=""></textarea>
-            <input type="submit" value="Submit">
-        </form>
-    </section>
+
+
+
+
+
+    <div class="container" id="main">
+        <h2 class="headfont">Contact</h2>
+        <section class="otherfont" id="maincontent">
+            <div class="contactform">
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="namebox" name="name" placeholder="John Smith">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder=""></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+
+            </div>
+
+        </section>
+    </div>
+
+    <footer>
+        <p>Copyright &copy;</p>
+    </footer>
 </body>
+
 
 </html>
