@@ -49,17 +49,11 @@ img {
     margin: auto;
     width: 85%;
     margin-top: 60px;
+    
   }
   
   /* Bottom right text */
-  .text-block {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px }
+
 
     #name {
         width: 30%;
@@ -109,7 +103,7 @@ background-image: url(../images/white-waves.png);
 #main {
     margin-top:43px;
     border: solid #dddddd 1px;
-    padding: 1.75em;
+    padding: 20px;
 }
 
 .headfont {
@@ -129,9 +123,13 @@ h2 {
     border-bottom: solid #dddddd 3px;
 }
 
+.push{
+    height: 50px;
+}
+
 footer {
     display: block;
-    float: bottom;
+   
     background: #666666;
     height: 4rem;
     margin-top: 244px;
@@ -147,13 +145,16 @@ text-align: center;
 #maincontent {
 margin-top: 1.75em;
 
+
 }
 
 #bio-image {
-    
+    float: left;
+    margin-right: 1.5em;
 }
 
 .paragraphs {
+
    color: #777777;
    font-size: 18px;
     
@@ -183,3 +184,88 @@ margin-top: 1.75em;
     height: 20em;
 }
 
+
+
+
+
+.text-block1 {
+position: relative; 
+   bottom: 20px;
+   background-color:#4aaaa5;
+   color: white;
+  
+  text-align: center;
+   width: 200px;
+   height: 32px;
+   
+}
+.text-block2 {
+    position: relative; 
+   bottom: 20px;
+   background-color:#4aaaa5;
+   color: white;
+
+   text-align: center;
+   width: 200px;
+   height: 32px;
+}
+.text-block3 {
+    position: relative; 
+   bottom: 20px;
+   background-color:#4aaaa5;
+   color: white;
+  text-align: center;
+   /* text-align: center; */
+   width: 200px;
+   height: 32px;
+}
+.text-block4 {
+    position: relative; 
+   bottom: 20px;
+   background-color:#4aaaa5;
+   color: white;
+   
+   text-align: center;
+   width: 200px;
+   height: 32px;
+   
+}
+
+   
+
+   
+
+
+
+.portimage {
+    display: inline-block;
+    width: 200px;
+   font-size: 20px;
+   margin: 20px;
+   margin-left: 78px;
+   
+   
+   
+}
+
+.portimage a {
+
+    text-decoration: none;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    
+
+}
+
+.content  {
+
+  
+}
+.line {
+    /* border-right: 1px;
+    border-style:solid;
+    border-color: grey;
+    height:; */
+
+}
